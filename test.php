@@ -31,7 +31,8 @@ $matriks2 = array(
 
 foreach ($matriks2 as $index => $row2) {
     $output = 0;
-    foreach ($row2 as $iRow2 => $valRow2) {
+    foreach ($row2 as $iRow2 => $valRow2)
+    {
         $output = 0;
         $matriks = $matriks1[$index];
         foreach ($matriks as $val1) {
@@ -40,8 +41,8 @@ foreach ($matriks2 as $index => $row2) {
         }
         echo "$output  ";
     }
-
-
+    
+    
     echo "<br>";
 }
 
